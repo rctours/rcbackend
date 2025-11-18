@@ -1,0 +1,115 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cars",
+  "info": {
+    "singularName": "car",
+    "pluralName": "cars",
+    "displayName": "Car"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "carName": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "mileage": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    },
+    "registrationNumber": {
+      "type": "string"
+    },
+    "modelYear": {
+      "type": "integer"
+    },
+    "fuelType": {
+      "type": "enumeration",
+      "enum": [
+        "Petrol",
+        "Diesel",
+        "Electric",
+        "Petrol/CNG",
+        "CNG"
+      ]
+    },
+    "transmission": {
+      "type": "enumeration",
+      "enum": [
+        "Manual",
+        "Automatic"
+      ]
+    },
+    "seatingCapacity": {
+      "type": "integer"
+    },
+    "carType": {
+      "type": "enumeration",
+      "enum": [
+        "Sedan",
+        "Hatchback",
+        "SUV",
+        "MPV",
+        "Coupe",
+        "Convertible",
+        "Pickup",
+        "Crossover",
+        "Minivan",
+        "Wagon",
+        "Luxury",
+        "Electric",
+        "Hybrid",
+        "Mini Bus",
+        "Van",
+        "Traveller",
+        "SUV/MPV"
+      ]
+    },
+    "rentalDetails": {
+      "type": "component",
+      "component": "car.rental-details",
+      "repeatable": false
+    },
+    "features": {
+      "type": "component",
+      "component": "car.features",
+      "repeatable": false
+    },
+    "documents": {
+      "type": "component",
+      "component": "car.documents",
+      "repeatable": false
+    },
+    "rentalPolicy": {
+      "type": "component",
+      "component": "car.rental-policy",
+      "repeatable": false
+    },
+    "reviews": {
+      "type": "component",
+      "component": "car.reviews",
+      "repeatable": true
+    },
+    "availability": {
+      "type": "component",
+      "component": "car.availability",
+      "repeatable": false
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

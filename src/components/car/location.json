@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_car_locations",
+  "info": {
+    "displayName": "location"
+  },
+  "options": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    },
+    "pickupAddress": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

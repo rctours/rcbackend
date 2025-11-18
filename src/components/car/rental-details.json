@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_car_rental_details",
+  "info": {
+    "displayName": "rentalDetails"
+  },
+  "options": {},
+  "attributes": {
+    "pricePerHour": {
+      "type": "integer"
+    },
+    "pricePerDay": {
+      "type": "integer"
+    },
+    "minimumBookingHours": {
+      "type": "integer"
+    },
+    "available": {
+      "type": "boolean"
+    },
+    "location": {
+      "type": "component",
+      "component": "car.location",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

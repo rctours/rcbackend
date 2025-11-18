@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_car_documents",
+  "info": {
+    "displayName": "documents"
+  },
+  "options": {},
+  "attributes": {
+    "rcBook": {
+      "type": "boolean"
+    },
+    "insurance": {
+      "type": "boolean"
+    },
+    "puc": {
+      "type": "boolean"
+    },
+    "fitnessCertificate": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

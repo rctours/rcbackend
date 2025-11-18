@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_car_availabilities",
+  "info": {
+    "displayName": "availability"
+  },
+  "options": {},
+  "attributes": {
+    "availableFrom": {
+      "type": "date"
+    },
+    "isAvailable": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

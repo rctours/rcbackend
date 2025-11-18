@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_car_features",
+  "info": {
+    "displayName": "features"
+  },
+  "options": {},
+  "attributes": {
+    "airConditioner": {
+      "type": "boolean"
+    },
+    "powerSteering": {
+      "type": "boolean"
+    },
+    "airbags": {
+      "type": "integer"
+    },
+    "abs": {
+      "type": "boolean"
+    },
+    "rearCamera": {
+      "type": "boolean"
+    },
+    "gpsNavigation": {
+      "type": "boolean"
+    },
+    "bluetooth": {
+      "type": "boolean"
+    },
+    "usbPort": {
+      "type": "boolean"
+    },
+    "sunroof": {
+      "type": "boolean"
+    },
+    "musicSystem": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}
