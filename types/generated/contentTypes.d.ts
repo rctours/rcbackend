@@ -542,6 +542,9 @@ export interface ApiMessageMessage extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     date: Schema.Attribute.Date;
     destination: Schema.Attribute.String;
+    leadStatus: Schema.Attribute.Enumeration<
+      ['lead created', 'viewed', 'contacted']
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

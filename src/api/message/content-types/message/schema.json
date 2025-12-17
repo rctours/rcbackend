@@ -25,6 +25,14 @@
     },
     "date": {
       "type": "date"
+    },
+    "leadStatus": {
+      "type": "enumeration",
+      "enum": [
+        "lead created",
+        "viewed",
+        "contacted"
+      ]
     }
   }
 }
