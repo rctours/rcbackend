@@ -14,11 +14,17 @@
     "name": {
       "type": "string"
     },
-    "email": {
-      "type": "email"
-    },
     "message": {
       "type": "text"
+    },
+    "phoneNumber": {
+      "type": "biginteger"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
     }
   }
 }
