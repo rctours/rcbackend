@@ -6,16 +6,20 @@
   "options": {},
   "attributes": {
     "rcBook": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "insurance": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "puc": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "fitnessCertificate": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     }
   },
   "config": {}

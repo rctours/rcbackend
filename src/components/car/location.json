@@ -6,10 +6,12 @@
   "options": {},
   "attributes": {
     "city": {
-      "type": "string"
+      "type": "string",
+      "default": "Nagpur"
     },
     "state": {
-      "type": "string"
+      "type": "string",
+      "default": "Maharashtra"
     },
     "pickupAddress": {
       "type": "string"

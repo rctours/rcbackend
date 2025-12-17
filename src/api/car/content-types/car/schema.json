@@ -17,13 +17,7 @@
     "brand": {
       "type": "string"
     },
-    "mileage": {
-      "type": "string"
-    },
     "color": {
-      "type": "string"
-    },
-    "registrationNumber": {
       "type": "string"
     },
     "modelYear": {

@@ -511,10 +511,8 @@ export interface ApiCarCar extends Struct.CollectionTypeSchema {
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::car.car'> &
       Schema.Attribute.Private;
-    mileage: Schema.Attribute.String;
     modelYear: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
-    registrationNumber: Schema.Attribute.String;
     rentalDetails: Schema.Attribute.Component<'car.rental-details', false>;
     rentalPolicy: Schema.Attribute.Component<'car.rental-policy', false>;
     reviews: Schema.Attribute.Component<'car.reviews', true>;

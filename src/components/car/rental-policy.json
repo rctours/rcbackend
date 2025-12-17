@@ -11,14 +11,6 @@
     "lateReturnChargesPerHour": {
       "type": "integer"
     },
-    "driverAgeLimit": {
-      "type": "integer",
-      "default": 18
-    },
-    "licenseRequirement": {
-      "type": "string",
-      "default": "Valid Indian Driving Licence"
-    },
     "fuelPolicy": {
       "type": "string",
       "default": "full to full"

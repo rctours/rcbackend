@@ -17,10 +17,11 @@ export interface CarDocuments extends Struct.ComponentSchema {
     displayName: 'documents';
   };
   attributes: {
-    fitnessCertificate: Schema.Attribute.Boolean;
-    insurance: Schema.Attribute.Boolean;
-    puc: Schema.Attribute.Boolean;
-    rcBook: Schema.Attribute.Boolean;
+    fitnessCertificate: Schema.Attribute.Boolean &
+      Schema.Attribute.DefaultTo<true>;
+    insurance: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    puc: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
+    rcBook: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<true>;
   };
 }
 
@@ -63,9 +64,9 @@ export interface CarLocation extends Struct.ComponentSchema {
     displayName: 'location';
   };
   attributes: {
-    city: Schema.Attribute.String;
+    city: Schema.Attribute.String & Schema.Attribute.DefaultTo<'Nagpur'>;
     pickupAddress: Schema.Attribute.String;
-    state: Schema.Attribute.String;
+    state: Schema.Attribute.String & Schema.Attribute.DefaultTo<'Maharashtra'>;
   };
 }
 
@@ -89,12 +90,9 @@ export interface CarRentalPolicy extends Struct.ComponentSchema {
     displayName: 'rentalPolicy';
   };
   attributes: {
-    driverAgeLimit: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<18>;
     fuelPolicy: Schema.Attribute.String &
       Schema.Attribute.DefaultTo<'full to full'>;
     lateReturnChargesPerHour: Schema.Attribute.Integer;
-    licenseRequirement: Schema.Attribute.String &
-      Schema.Attribute.DefaultTo<'Valid Indian Driving Licence'>;
     securityDeposit: Schema.Attribute.Integer;
   };
 }
