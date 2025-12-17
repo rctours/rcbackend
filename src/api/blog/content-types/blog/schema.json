@@ -24,7 +24,7 @@
     "content": {
       "type": "blocks"
     },
-    "coverImage": {
+    "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
